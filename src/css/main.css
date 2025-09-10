@@ -1,1 +1,66 @@
-/* Your CSS here. */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #ffffff;
+  color: #000000;
+}
+
+.page {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.card {
+  width: 75%;
+  max-width: 820px;
+  background: #6c6a6a;
+  color: #ffffff;
+  text-align: center;
+  padding: 32px 32px 48px;
+  box-sizing: border-box;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.name {
+  margin: 0 0 8px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.email {
+  margin: 0 0 12px;
+  font-style: italic;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #c7bde2;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.bio {
+  max-width: 740px;
+  margin: 0 auto 12px;
+  text-align: left;
+  line-height: 1.5;
+}
